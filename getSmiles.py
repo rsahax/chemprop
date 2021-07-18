@@ -12,3 +12,4 @@ df = pd.read_csv(filename)
 smiles = df['SMILES']
 # -4 to remove the .csv and save as plain text
 smiles.to_csv(filename[:-4], header=None, index=False)
+
